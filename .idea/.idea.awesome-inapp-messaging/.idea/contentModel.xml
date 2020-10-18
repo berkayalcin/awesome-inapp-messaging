@@ -50,6 +50,10 @@
       </e>
       <e p="awesome-inapp-messaging.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="ui-client" t="Include">
+        <e p="chat.js" t="Include" />
+        <e p="index.html" t="Include" />
+      </e>
     </e>
   </component>
 </project>

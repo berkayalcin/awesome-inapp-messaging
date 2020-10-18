@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "awesome-inapp-messaging", "awesome-inapp-messaging\awesome-inapp-messaging.csproj", "{F8FC8527-7D96-441D-A5CC-7DABA4E7A7FE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ui-client", "ui-client", "{7CCEFC3C-F72B-46F2-A655-3FCB59A7E8AF}"
+ProjectSection(SolutionItems) = preProject
+	ui-client\chat.js = ui-client\chat.js
+	ui-client\index.html = ui-client\index.html
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
