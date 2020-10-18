@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace awesome_inapp_messaging.InAppChat.Extensions
 {
     public static class ApplicationBuilderExtensions
-    {
+    {    
         public static void UseInAppMessaging(this IApplicationBuilder applicationBuilder, InAppChatOptions options)
         {
             applicationBuilder.UseWebSockets();

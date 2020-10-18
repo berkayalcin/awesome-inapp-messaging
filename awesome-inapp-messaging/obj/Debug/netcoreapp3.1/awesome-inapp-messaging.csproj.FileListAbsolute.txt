@@ -7,7 +7,6 @@
 /Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/bin/Debug/netcoreapp3.1/awesome-inapp-messaging.dll
 /Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/bin/Debug/netcoreapp3.1/awesome-inapp-messaging.pdb
 /Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
-/Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/bin/Debug/netcoreapp3.1/Newtonsoft.Json.xml
 /Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/obj/Debug/netcoreapp3.1/awesome-inapp-messaging.csprojAssemblyReference.cache
 /Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/obj/Debug/netcoreapp3.1/awesome-inapp-messaging.csproj.CoreCompileInputs.cache
 /Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/obj/Debug/netcoreapp3.1/awesome-inapp-messaging.MvcApplicationPartsAssemblyInfo.cache
@@ -19,5 +18,4 @@
 /Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/obj/Debug/netcoreapp3.1/staticwebassets/awesome-inapp-messaging.StaticWebAssets.xml
 /Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/obj/Debug/netcoreapp3.1/awesome-inapp-messaging.dll
 /Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/obj/Debug/netcoreapp3.1/awesome-inapp-messaging.pdb
-/Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/bin/Debug/netcoreapp3.1/DotNet.InAppChat.dll
-/Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/bin/Debug/netcoreapp3.1/DotNet.InAppChat.pdb
+/Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/obj/Debug/netcoreapp3.1/awesome-inapp-messaging.genruntimeconfig.cache

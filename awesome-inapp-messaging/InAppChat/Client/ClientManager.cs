@@ -78,6 +78,26 @@ namespace awesome_inapp_messaging.InAppChat.Client
             }
         }
 
+        public async Task SendMessageAsync(WebsocketMessage message, IEnumerable<ChatClient> clients)
+        {
+            foreach (var chatClient in clients)
+            {
+                await SendMessageAsync(message, chatClient.Socket);
+            }
+        }
+
+        public IEnumerable<ChatClient> GetOtherThanMe(System.Net.WebSockets.WebSocket socket)
+        {
+            return _clients
+                .Where(t => t.Value.Socket != socket)
+                .Select(c => c.Value);
+        }
+
+        public ChatClient GetUserBySocket(System.Net.WebSockets.WebSocket socket)
+        {
+            return _clients.FirstOrDefault(t => t.Value.Socket == socket).Value;
+        }
+
         public async Task ReceiveAsync(System.Net.WebSockets.WebSocket socket)
         {
             var buffer = new byte[1024 * 4];
@@ -93,6 +113,11 @@ namespace awesome_inapp_messaging.InAppChat.Client
 
                 var incomingMessage = Encoding.UTF8.GetString(buffer, 0, result.Count);
                 OnMessageReceived.Invoke(incomingMessage);
+                await SendMessageAsync(new WebsocketMessage()
+                {
+                    Body = incomingMessage,
+                    Sender = GetUserBySocket(socket).UserName
+                }, GetOtherThanMe(socket));
             }
 
             await DisconnectAsync(socket);
