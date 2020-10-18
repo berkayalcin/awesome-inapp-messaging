@@ -4,7 +4,9 @@
     <projectFile>awesome-inapp-messaging/awesome-inapp-messaging.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e3921a0-7af3-4d17-ab0b-8276f2e8439d" name="Default Changelist" comment="" />
+    <list default="true" id="0e3921a0-7af3-4d17-ab0b-8276f2e8439d" name="Default Changelist" comment="Add Username">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.awesome-inapp-messaging/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.awesome-inapp-messaging/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +17,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/awesome-inapp-messaging/InAppChat/Extensions/ApplicationBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/awesome-inapp-messaging/InAppChat/Extensions/ChatClientExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/awesome-inapp-messaging/InAppChat/Extensions/ChatClientExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/awesome-inapp-messaging/InAppChat/WebSocket/WebsocketMiddleware.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/awesome-inapp-messaging/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/57/ArraySegment.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/1D8/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/awesome-inapp-messaging/InAppChat/Client/ClientManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/awesome-inapp-messaging/InAppChat/Client/ClientManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,6 +56,8 @@
         <option value="$PROJECT_DIR$/awesome-inapp-messaging/Utils/AuthenticationHandler.cs" />
         <option value="$PROJECT_DIR$/awesome-inapp-messaging/Startup.cs" />
         <option value="$PROJECT_DIR$/awesome-inapp-messaging/Utils/MessageReceiver.cs" />
+        <option value="$PROJECT_DIR$/awesome-inapp-messaging/.gitignore" />
+        <option value="$PROJECT_DIR$/awesome-inapp-messaging/InAppChat/Client/ChatClient.cs" />
       </list>
     </option>
   </component>
@@ -64,9 +68,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34971997" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29993778" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -100,8 +106,16 @@
       <option name="presentableId" value="Default" />
       <updated>1603019875565</updated>
       <workItem from="1603019881629" duration="1586000" />
-      <workItem from="1603021513548" duration="6163000" />
+      <workItem from="1603021513548" duration="7424000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Username">
+      <created>1603035501001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603035501001</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +125,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add Username" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Username" />
   </component>
   <component name="WindowStateProjectService">
     <state width="509" height="464" key="DebuggerActiveHint" timestamp="1603026798441">
@@ -213,5 +229,9 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="652" y="260" key="RiderGenerateDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603022625824" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1603035502162">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1603035502162" />
   </component>
 </project>
