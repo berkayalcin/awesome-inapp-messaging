@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "awesome-inapp-messaging", "awesome-inapp-messaging\awesome-inapp-messaging.csproj", "{F8FC8527-7D96-441D-A5CC-7DABA4E7A7FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8FC8527-7D96-441D-A5CC-7DABA4E7A7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FC8527-7D96-441D-A5CC-7DABA4E7A7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FC8527-7D96-441D-A5CC-7DABA4E7A7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FC8527-7D96-441D-A5CC-7DABA4E7A7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

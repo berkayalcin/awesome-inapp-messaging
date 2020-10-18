@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GSYucdCjAo8NsPWpXuWX9GAgyE6KGikZhY2DxxVx/j0OVvlSETVQe97dXSGuLERC4EfcavCuFigQisedgm0QjQ==",
+  "success": true,
+  "projectFilePath": "/Users/berkay.yalcin/RiderProjects/awesome-inapp-messaging/awesome-inapp-messaging/awesome-inapp-messaging.csproj",
+  "expectedPackageFiles": [
+    "/Users/berkay.yalcin/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
